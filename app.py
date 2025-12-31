@@ -10,12 +10,12 @@ def home():
 
 @app.route("/status")
 def home():
-    return "OK!?!"
+    return "OK"
 
 
 @app.route("/blog")
 def blog():
-    return "Check out, my latest blog post at example.com/blog."
+    return "Check out, my latest blog post at- example.com/blog."
 
 
 @app.route("/pricing")
